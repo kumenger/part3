@@ -1,0 +1,19 @@
+DELETE http://localhost:3001/api/persons/2
+###
+GET  http://localhost:3001/api/persons/62378a57644d73aa0580e4e2
+###
+GET  http://localhost:3001/api/persons/
+###
+POST  http://localhost:3001/api/persons/
+
+{
+    "name":"zele",
+    "number":"720-655-2919"
+}
+###
+PUT    http://localhost:3001/api/persons/
+
+{
+    "name":"zelalem",
+    "number":"720-655-2919"
+}
